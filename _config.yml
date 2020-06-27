@@ -5,7 +5,7 @@ description:        "Flutter & Dart dev."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/background-small.jpg'
+background:         'assets/img/background-normal.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://kmh339.github.io
