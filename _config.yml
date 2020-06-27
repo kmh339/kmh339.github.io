@@ -11,7 +11,7 @@ locale:             en_US
 url:                https://kmh339.github.io
 
 # Jekyll
-permalink:          /:categories/:title/
+permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:

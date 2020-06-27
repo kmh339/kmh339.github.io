@@ -10,7 +10,7 @@ tag:
 - test
 - jekyll
 comments: true
-categories: [Etc]
+category: [Etc]
 ---
 
 ## HTML Elements
