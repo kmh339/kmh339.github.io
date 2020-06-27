@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Markdown Syntax"
-date:   2016-03-15
+date:   2020-06-27
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 tag:
 - markdown 
@@ -28,13 +28,21 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ###### Heading 6
 
-### Body text
+### Body text - en
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
 HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
+
+### 바디 텍스트 - 한글
+
+다람쥐 챗바퀴 바람에 굴러가, 다트, 플러터. **굵은 폰트**.
+
+*강조는 이것*
+
+HTML과 CSS
 
 ### Blockquotes
 
@@ -69,13 +77,20 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 | Foot1   | Foot2   | Foot3
 {: rules="groups"}
 
-## Code Snippets
+## Code Snippets - css
 
 {% highlight css %}
 #container {
   float: left;
   margin: 0 -240px 0 0;
   width: 100%;
+}
+{% endhighlight %}
+
+## Code Snippets - dart
+{% highlight dart %}
+Widget myWidget() {
+	return Container();
 }
 {% endhighlight %}
 
