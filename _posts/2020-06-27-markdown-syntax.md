@@ -88,12 +88,11 @@ HTML과 CSS
 {% endhighlight %}
 
 ## Code Snippets - dart
-{% highlight dart %}
+```dart
 Widget myWidget() {
 	return Container();
 }
-{% endhighlight %}
-
+```
 ## Buttons
 
 Make any link standout more when applying the `.btn` class.
